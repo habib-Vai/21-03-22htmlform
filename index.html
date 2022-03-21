@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Practice</title>
+</head>
+<body>
+    <main>
+        <h2>Simple Form Sample</h2>
+<!--Form Start-->
+    <form>
+<fieldset>
+        <legend>Personal Information</legend>
+
+        <!--This is Image file-->
+<div>
+    <label for="file":">Your Image:</label>
+<input type="file" required>
+</div>
+
+<br>
+
+<!--Name Address start-->
+<div>
+    <label for="text">Full Name:</label>
+    <input type="text" placeholder="Fist Name" required>
+    <input type="text" placeholder="Last Name" required>
+
+</div>
+<br>
+<!--Father"s Name-->
+<div>
+    <label for="text"> Father's Name:</label>
+    <input type="text" placeholder="Father's Name" required>
+</div>
+<br>
+<!--Mother"s Name-->
+<div>
+    <label for="text">Mother's Name:</label>
+    <input type="text" placeholder="mother's Name" required>
+</div>
+<br>
+<!--radio button-->
+<div>
+    <label for="gender">Gender:</label>
+    <input type="radio" name="gender" id="male" required> Male
+    <input type="radio" name="gender" id="female" required> Female
+    <input type="radio" name="gender" id="custom" required> Custom
+
+</div>
+<br>
+<!--maritial status-->
+<div>
+<label for="maritialstatus">Maritial Status:</label>
+<select name="" id="">
+
+    <option value="">Select One</option>
+    <option value="married">Married</option>
+    <option value="unmarried">Unmarried</option>
+    <option value="divorced">Divorced</option> 
+
+</select>
+
+<label for="Spouse Name">Spouse Name:</label>
+<input type="text" placeholder="full name">
+
+
+
+</div>
+<br>
+
+<!--Date of birth-->
+<div>
+    <label for="date"> Date of Birth:</label>
+<input type="date" required>
+
+<!--Nid Num-->
+<label for="nid no"> NID No:</label>
+<input type="text" pattern="0-9" placeholder="Enter Your Nid No" required>
+
+</div>
+<br>
+
+<!--passport-->
+<div>
+    <label for="passport">Passport No:</label>
+<input type="text" pattern="0-9" placeholder="Enter Your Passport No"> 
+</div>
+<br>
+
+<!--Contact No-->
+<div>
+  <label for="contact no">Contact No:</label>  
+  <input type="text" pattern="0-9" placeholder="Enter Your Number">
+</div>
+<br>
+
+<!--Address -->
+<div>
+    <label for="permanent address">Permanent Address:</label>
+     <textarea name="" id="" cols="5" rows="5" placeholder="Enter Your Address"></textarea>
+
+     <label for="present address">Present Address:</label>
+    <textarea name="" id="" cols="5" rows="5" placeholder="Enter Your Address"></textarea>
+
+</div>
+<hr>
+<!--Academic Qualification-->
+<div>
+<label for="Academic Qualification">Academic Qualification:</label> <br>
+<input type="checkbox">PSC
+<input type="checkbox">JSC
+<input type="checkbox">SSC/Dakhil/Vocational
+<input type="checkbox">HSC/Alim/Vocational
+<input type="checkbox">Diploma
+<input type="checkbox">Fazil
+<input type="checkbox"> Software Engineering
+<input type="checkbox"> Computer Engineering
+<input type="checkbox">Kamil
+<input type="checkbox">BA
+<input type="checkbox">BBA
+<input type="checkbox">B.S.C
+<input type="checkbox">Masters
+<input type="checkbox">Others
+
+</div>
+<hr>
+<!--color effect-->
+<div>
+    <label for="favourite color"> Your Favourite Color:</label>
+    <input type="color" name="" id="">
+</div>
+<br>
+<!--Favourite food-->
+<div>
+    <label for="favourite food ">Your Favourite Food:</label>
+    <input type="text" placeholder="Your Favourite Food">
+</div>
+<br>
+<!--Hobby-->
+<div>
+    <label for="hobby">Your Hobby:</label>
+    <input type="text" name="" id="" placeholder="Your Favourite Hobby">
+</div>
+<br>
+
+<!--Literacy-->
+<div>
+    <label for="literacy">Basic Computer literacy</label>
+    <input type="range" value="90">90%
+</div>
+<br>
+<!--Comment-->
+<div>
+<label for="Your Comment">Your Comment:</label>
+<br>
+<textarea name="message" id="" cols="30" rows="10" placeholder="Your Comment Here"></textarea>  
+</div>
+<hr>
+<!--email & Password-->
+<div>
+    <label for="email">Email:</label>
+    <input type="email" placeholder="Enter Your Email">
+<br> <br>
+<label for="pass">Password:</label>
+<input type="password" placeholder="type Your Password">
+</div>
+
+<!--Submit Button-->
+<br>
+<div>
+    <button>Submit</button>
+</div>
+
+
+</fieldset>
+
+    </form>
+
+    </main>
+
+
+</body>
+</html>
